@@ -31,3 +31,7 @@ Learned in this exercise:
 // Production-ready features
 + Actuator & endpoints, with spring-boot-starter-actuator dependency
 + change logging level
+
+// Deploying to Railway ***
++ database on Railway
++ github connect
