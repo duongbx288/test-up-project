@@ -1,0 +1,52 @@
+###
+GET http://localhost/trang-chu
+
+###
+GET http://localhost/trang-chu
+
+###
+GET http://localhost:8080/content
+
+<> 2023-05-05T171726.200.json
+<> 2023-05-04T211643.200.json
+
+###
+GET http://localhost:8080/content
+
+<> 2023-05-05T171646.200.json
+
+###
+GET http://localhost:8080/content/1
+
+###
+POST http://localhost:8080/content
+Content-Type: application/json
+
+{
+  "id":   2,
+  "title": "hello",
+  "desc": "My 2nd blog post",
+  "status": "IDEA",
+  "contentType": "ARTICLE",
+  "dateCreated": "2023-05-05T17:16:29.4094887",
+  "dateUpdated": null,
+  "url": ""
+}
+
+###
+PUT http://localhost:8080/content/1
+Content-Type: application/json
+
+{
+  "id": 1,
+  "title": "My FIRST Post !!",
+  "desc": "My POST !!",
+  "status": "IDEA",
+  "contentType": "ARTICLE",
+  "dateCreated": "2023-05-05T17:16:29.4094887",
+  "dateUpdated": null,
+  "url": "http://localhost:8080/my-first-blog-post"
+}
+
+### delete
+DELETE http://localhost:8080/content/2

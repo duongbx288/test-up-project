@@ -1,0 +1,13 @@
+{
+  "properties": [
+    {
+      "name": "cc.welcomeMessage",
+      "type": "java.lang.String",
+      "description": "Description for cc.welcomeMessage."
+    },
+    {
+      "name": "cc.about",
+      "type": "java.lang.String",
+      "description": "Description for cc.about."
+    }
+  ] }
